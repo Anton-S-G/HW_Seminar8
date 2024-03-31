@@ -91,4 +91,4 @@ while True:
         num_row = input("Введите номер строки или имя из файла Add.txt для переноса в Book.txt: ")
         transfer_data(file, dest, num_row)
     elif mode == 5 or mode >=5:
-        exit()
+        exit("Программа завершена")
